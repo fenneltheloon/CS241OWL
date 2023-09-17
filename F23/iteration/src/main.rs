@@ -7,6 +7,13 @@ fn reversed_vec(input_data: &[i32]) -> Vec<i32> {
     result
 }
 
+fn is_in_order(data: &[i32]) -> bool {
+    let min = i32::MIN;
+    for x in data {
+        
+    }
+}
+
 fn main() {
     let data = vec![2, 3, 5, 7, 11, 13];
 
@@ -40,4 +47,5 @@ mod test {
         let data = vec![1, 2, 3];
         assert_eq!(reversed_vec(&data), [3, 2, 1]);
     }
+    
 }
